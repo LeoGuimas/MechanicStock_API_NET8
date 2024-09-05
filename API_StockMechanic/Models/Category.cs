@@ -12,6 +12,8 @@ namespace API_StockMechanic.Models
         public string? Name { get; set; }
         public string? ImagemUrl { get; set; }
 
+
+        //GENERATE FOREIGN KEY
         public ICollection<Product>? Products { get; set; }
 
     }

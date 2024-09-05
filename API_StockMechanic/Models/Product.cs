@@ -10,6 +10,8 @@
         public float Stock {  get; set; }
         public DateTime RegisterDate { get; set; }
 
+
+        //GENERATE FOREIGN KEY
         public int CategoryId { get; set; }
         public Category? Category { get; set; }
 
